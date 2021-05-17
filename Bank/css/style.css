@@ -63,7 +63,7 @@ ul li.active a {
   color: white;
 }
 .logo {
-  color: white;
+  color: rgb(0, 0, 0);
   font-family: "Courier New", Courier, monospace;
 
   text-decoration: none;
@@ -85,7 +85,7 @@ ul li.active a {
   font-size: 50px;
 }
 body {
-  background-color: rgba(57, 59, 55, 0.582);
+  background-color: rgba(192, 88, 57, 0.356);
   background-size: cover;
   background-position: inherit;
   width: 100vw;

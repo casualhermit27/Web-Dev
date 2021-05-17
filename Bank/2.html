@@ -12,13 +12,14 @@
       <a href="index.html" class="Home">Home</a>
     </header>
     <div class="card">
-      <table id="t01">
-        <tr>
+      <table>
+        <thead>
           <th>Customer ID</th>
           <th>Customer Name</th>
           <th>Balance</th>
-        </tr>
-        <tr>
+        </thead>
+        <tbody id="tbody1"></tbody>
+        <!-- <tr>
           <td>1</td>
           <td>Samay</td>
           <td>10000</td>
@@ -48,7 +49,7 @@
           <td>6</td>
           <td>Anshu</td>
           <td>25000</td>
-        </tr>
+        </tr> -->
       </table>
     </div>
     <!-- The core Firebase JS SDK is always required and must be listed first -->
@@ -76,6 +77,6 @@
       firebase.initializeApp(firebaseConfig);
       firebase.analytics();
     </script>
-    <script src="functions.js"></script>
+    <script src="/js/functions.js"></script>
   </body>
 </html>
