@@ -90,8 +90,8 @@ table {
 table,
 th,
 td {
-  border: 2px solid rgb(0, 0, 0);
-
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 9px 9px 9px 9px;
   border-collapse: collapse;
 }
 th,
@@ -106,24 +106,4 @@ td {
 #t01 th {
   background-color: rgba(0, 0, 0, 0.616);
   color: white;
-}
-.button1 {
-  background-color: #f53845d5;
-  border: 2px solid transparent;
-  color: white;
-  border-radius: 5px 5px 5px 5px;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  position: absolute;
-  left: 77%;
-  top: 1.5%;
-  transition: 0.3s ease;
-}
-.button1:hover {
-  background-color: #6e45e1;
 }
